@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(30, 100, 240);
+    background-image: url(./background.png);
+}
+
+.header li{
+    display:flex;
+    color: rgb(83, 155, 214);
+}
+.bouton{
+    display:flex;
+}
+.list{
+/*   box model */
+margin: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 10%;
+}
+.main h1{
+color: white;
+font-size: 18px;
+}
+.main p{
+color: gray;
+font-size: 14px;
+}
+.bouton2{
+    display: flex;
+}
+#b1{
+    color: white;
+    background-color: pink;
+}
+#b2{
+    color: pink;
+    background-color: white;
+    border-radius: 2px;
+}
